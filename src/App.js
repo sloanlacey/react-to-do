@@ -1,9 +1,13 @@
-import './App.css';
+import "./App.css";
+import Form from "./components/Form/Form.js";
 
 function App() {
   return (
     <div className="App">
-      <h1>HELLO FROM TO-DO APP</h1>
+      <header>
+        <h1>Hop to it</h1>
+      </header>
+      <Form />
     </div>
   );
 }
